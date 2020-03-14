@@ -1,0 +1,14 @@
+.konten {
+    padding: 10px;
+    padding-bottom: 5px;
+}
+@media only screen and (max-width: 576px) {
+    .konten {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 10%;
+    }
+}
+.cb {
+    padding-bottom: 10%;
+ }
