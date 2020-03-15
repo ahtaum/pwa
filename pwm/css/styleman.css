@@ -1,14 +1,96 @@
+body {
+	padding: 0;
+	margin: 0;
+	transition: 0.1s;
+}
+
+.atas {
+	background: none;
+	color: black;
+	font-weight: lighter;
+}
+
+.atas h1,p {
+	text-align: center;
+}
+
+.atas .nav {
+	padding: 20px;
+	transform: translateY(360%);
+	background: none;
+}
+
+.atas .nav .nav-link {
+	margin: 5px;
+	transition: 0.5s;
+}
+
+.atas .nav .nav-link:hover {
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+}
+
+.atas .nav .nav-link {
+	color: black;
+	font-weight: lighter;
+}
+
+.atas .jumbotron {
+	background-color: white;
+	height: 430px;
+	transition: 0.1s;
+}
+
+.konten {
+	margin-top: 100px;
+}
+
+.cb img {
+	transition: 0.1s;
+}
+
+.cb .konten img:hover {
+	opacity: 0.2;
+	transition: 0.1s;
+	padding: 10px;
+}
+
+.cb .konten p {
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+.cb .konten p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.1s;
+	opacity: 0;
+}
+
+.cb .konten:hover p {
+	opacity: 1;
+	transition: 0.1s;
+}
+
 .konten {
     padding: 10px;
     padding-bottom: 5px;
 }
+
+/* untuk responsive */
 @media only screen and (max-width: 576px) {
     .konten {
       padding-left: 10%;
       padding-right: 10%;
       padding-bottom: 10%;
+      transition: 0.1s;
     }
 }
 .cb {
     padding-bottom: 10%;
+    transition: 0.1s;
  }
