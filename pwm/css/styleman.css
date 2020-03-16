@@ -81,6 +81,18 @@ body {
     padding-bottom: 5px;
 }
 
+footer {
+	padding: 25px;
+	background: none;
+	width: 100%;
+}
+
+footer h1,p {
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-weight: lighter;
+}
+
 /* untuk responsive */
 @media only screen and (max-width: 576px) {
     .konten {
