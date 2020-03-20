@@ -94,13 +94,61 @@ footer h1,p {
 }
 
 /* untuk responsive */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
     .konten {
       padding-left: 10%;
       padding-right: 10%;
       padding-bottom: 10%;
       transition: 0.1s;
     }
+}
+@media only screen and (min-width: 373px) and (max-width: 397px){
+	.atas .nav {
+		padding: 2%;
+		transform: translateY(360%);
+		background: none;
+	}
+	.atas .jumbotron {
+		background-color: white;
+		height: 360px;
+		transition: 0.1s;
+	}
+	.konten {
+		margin-top: 5%;
+	}
+}
+@media only screen and (min-width: 362px) and (max-width: 372px){
+	.atas .nav {
+		padding: 2%;
+		transform: translateY(360%);
+		background: none;
+	}
+	.atas .jumbotron {
+		background-color: white;
+		height: 360px;
+		transition: 0.1s;
+	}
+	/* .konten {
+		margin-top: 100%;
+	} */
+	.cb {
+		margin-top: 100%;
+	}
+}
+@media only screen and (min-width: 200px) and (max-width: 361px){
+	.atas .nav {
+		padding: 0.5%;
+		transform: translateY(360%);
+		background: none;
+	}
+	.atas .jumbotron {
+		background-color: white;
+		height: 320px;
+		transition: 0.1s;
+	}
+	.cb{
+		padding-top: 100%;
+	}
 }
 .cb {
     padding-bottom: 10%;
