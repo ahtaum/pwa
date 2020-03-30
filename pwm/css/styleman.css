@@ -78,10 +78,19 @@ body {
 
 .konten {
     padding: 10px;
-    padding-bottom: 5px;
+}
+
+.card {
+	margin-top: 100px;
+	padding: 30px;
+}
+
+.card p {
+	color: white;
 }
 
 footer {
+	margin-top: 100px;
 	padding: 25px;
 	background: none;
 	width: 100%;
