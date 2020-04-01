@@ -102,6 +102,8 @@ footer h1,p {
 	font-weight: lighter;
 }
 
+
+
 /* untuk responsive */
 @media only screen and (max-width: 575px) {
     .konten {
@@ -111,6 +113,7 @@ footer h1,p {
       transition: 0.1s;
     }
 }
+
 @media only screen and (min-width: 373px) and (max-width: 397px){
 	.atas .nav {
 		padding: 2%;
@@ -126,6 +129,18 @@ footer h1,p {
 		margin-top: 5%;
 	}
 }
+
+@media only screen and (max-width: 360px){
+	.tab-content #home h1 {
+		position: relative;
+		top: 200px;
+	}
+	.tab-content #tentang h1 {
+		padding-top: 200px;
+	}
+}
+
+
 @media only screen and (min-width: 362px) and (max-width: 372px){
 	.atas .nav {
 		padding: 2%;
@@ -137,12 +152,11 @@ footer h1,p {
 		height: 360px;
 		transition: 0.1s;
 	}
-	/* .konten {
-		margin-top: 100%;
-	} */
+
 	.cb {
 		margin-top: 100%;
 	}
+
 }
 @media only screen and (min-width: 200px) and (max-width: 361px){
 	.atas .nav {
@@ -155,10 +169,11 @@ footer h1,p {
 		height: 320px;
 		transition: 0.1s;
 	}
-	.cb{
+	.cb {
 		padding-top: 100%;
 	}
 }
+
 .cb {
     padding-bottom: 10%;
     transition: 0.1s;
